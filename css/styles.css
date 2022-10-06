@@ -76,7 +76,7 @@ ol {
 }
 .header-contacts {
   box-sizing: border-box;
-  padding-left: 340px;
+  padding-left: 300px;
   display: inline-flex;
   gap: 50px;
 }
