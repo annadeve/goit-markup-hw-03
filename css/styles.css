@@ -128,7 +128,7 @@ img {
   color: white;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .main-button {
   font-weight: 700;
@@ -230,7 +230,7 @@ p {
 }
 
 .features-section-li > h3 {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .img-container {
@@ -270,7 +270,6 @@ p {
   flex-direction: row;
   justify-content: center;
   gap: 30px;
-  padding-bottom: 50px;
 }
 
 .team-section {
@@ -306,7 +305,8 @@ p {
   border-radius: 0px 0px 4px 4px;
   display: inline-block;
 }
-.team-section-li > h3 {
+.team-section-li > .team-member-div > h3 {
+  text-transform: capitalize;
   text-align: center;
 }
 .team-section-li > .team-member-div > p {
@@ -320,7 +320,6 @@ p {
 }
 footer {
   width: 100%;
-  height: 252px;
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -363,7 +362,7 @@ footer {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 2;
+  line-height: 1.7;
   /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -440,6 +439,7 @@ footer {
   font-style: normal;
 }
 .img-portfolio > a > .img-div > h3 {
+  font-family: "Roboto";
   text-decoration: none;
   font-style: normal;
   font-weight: 700;
@@ -450,6 +450,7 @@ footer {
   color: #212121;
 }
 .img-portfolio > a > .img-div > p {
+  font-family: "Roboto";
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
