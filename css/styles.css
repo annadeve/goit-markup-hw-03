@@ -425,8 +425,7 @@ footer {
   gap: 30px;
 }
 .img-portfolio {
-  /* width: 370px; */
-  width: calc((100% - 60px) / 3);
+  width: 370px;
   border: 1px solid #eeeeee;
 }
 .img-portfolio:hover,
